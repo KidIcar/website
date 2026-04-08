@@ -1,0 +1,43 @@
+body { 
+  font-family: Arial, sans-serif;
+    text-align: center; 
+}
+
+header { 
+  background: orange;
+  color: white; 
+  padding: 1rem;  
+}
+.products { 
+  display: flex;
+  gap: 20px; 
+  padding: 20px; 
+}
+
+.product-card { 
+  border: 1px solid #ddd;
+  padding: 15px; 
+  border-radius: 8px; 
+  text-align: center;
+  display: grid;
+}
+
+.products {
+  align-items: row;
+}
+
+button { 
+  background-color: orange;
+  color: white; border: none;
+  padding: 10px; cursor: pointer;
+}
+
+button:hover {
+  background-color: red;
+}
+section-2 {
+  background: orange;
+  color: white; 
+  padding: 1rem;  
+  DISPLAY: row;
+}
