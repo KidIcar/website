@@ -22,10 +22,6 @@ header {
   display: grid;
 }
 
-.products {
-  align-items: row;
-}
-
 button { 
   background-color: orange;
   color: white; border: none;
@@ -34,10 +30,4 @@ button {
 
 button:hover {
   background-color: red;
-}
-section-2 {
-  background: orange;
-  color: white; 
-  padding: 1rem;  
-  DISPLAY: row;
 }
