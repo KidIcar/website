@@ -4,7 +4,7 @@ body {
 }
 
 header { 
-  background: rgb(255, 102, 0);
+  background: orange;
   color: white; 
   padding: 1rem;  
 }
@@ -19,12 +19,12 @@ header {
   padding: 15px; 
   border-radius: 8px; 
   text-align: center;
-  margin-trim: inherit;
+  margin-inline: inherit;
 
 }
 
 button { 
-  background-color: rgb(255, 102, 0);
+  background-color: orange;
   color: white; border: none;
   padding: 10px; cursor: pointer;
 }
