@@ -1,38 +1,41 @@
-<html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Crunchyroll Store</title>
+  <link rel="stylesheet" href="html-css-js/css/main.css" />
+</head>
 <body>
-    <header>
-        <h1>Crunchyroll Store</h1>
-        <div id="cart-count">
-          Cart: 0 items
+  <header>
+    <h1>Crunchyroll Store</h1>
+    <div id="cart-count" aria-live="polite">Cart: 0 items</div>
+  </header>
+
+  <main>
+    <section class="products">
+      <div class="product-card">
+        <img src="img/iris-out-vinyl.jpg" alt="Iris Out vinyl cover">
+        <h3>Iris Out Vinyl Record</h3>
+        <p class="price">$29.99</p>
+        <button type="button" data-name="Iris Out Vinyl" data-price="29.99">Add to Cart</button>
       </div>
-    </header>
-</body>
-    <main>
-        <section class="products">
-            <div class="product-card">
-                <img src="199584004112_chainsaw-man-the-movie-reze-arc-iris-outjane-doe-single-vinyl_1.jpg" alt="Product 1">
-                <h3>Iris Out Vinyl Record</h3>
-                <p>$29.99</p>
-                <button onclick="addToCart('Iris Out Vinyl', 29.99)">Add to Cart</button>
-            </div>
-        </section>
-   <section2 class="products">
-            <div class="product-card">
-                <img src="199584004112_chainsaw-man-the-movie-reze-arc-iris-outjane-doe-single-vinyl_1.jpg">
-                <h3>Doma Look-up Figure</h3>
-                <p>$42.99</p>
-                <button onclick="addToCart('Doma Look-up Figure', 42.99)">Add to Cart</button>
-            </div>
-        </section2>
-      
-        <aside id="shopping-cart">
-            <h2>
-              Your Cart
-          </h2>
-         
-            <p>
-              Total:
-              </p>
-        </aside>
+
+      <div class="product-card">
+        <img src="img/doma-figure.jpg" alt="Doma Look-up figure">
+        <h3>Doma Look-up Figure</h3>
+        <p class="price">$42.99</p>
+        <button type="button" data-name="Doma Look-up Figure" data-price="42.99">Add to Cart</button>
+      </div>
+    </section>
+
+    <aside id="shopping-cart" aria-label="Shopping cart">
+      <h2>Your Cart</h2>
+      <div id="cart-items"></div>
+      <p>Total: <span id="cart-total">$0.00</span></p>
+    </aside>
   </main>
+
+  <script src="html-css-js/js/main.js"></script>
+</body>
 </html>
