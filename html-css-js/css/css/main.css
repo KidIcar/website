@@ -19,7 +19,7 @@ header {
   padding: 15px; 
   border-radius: 8px; 
   text-align: center;
-  display: list-item;
+  display: grid;
  
 }
 
