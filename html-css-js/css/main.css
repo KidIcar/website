@@ -19,8 +19,7 @@ header {
   padding: 15px; 
   border-radius: 8px; 
   text-align: center;
-  margin-inline: inherit;
-
+  display: grid;
 }
 
 button { 
