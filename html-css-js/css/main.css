@@ -1,34 +1,43 @@
-body { 
-  font-family: Arial, sans-serif;
-    text-align: center; 
-}
-
-header { 
-  background: orange;
-  color: white; 
-  padding: 1rem;  
-}
-.products { 
+.Header {
+height: 76px;
+color: white;
+background: #CE7EC6;
+margin-top: 0px;
+margin-bottom: 10px;
+text-align: center;
+align-items: center;
+justify-content: center;
+  color: #ffff;
+font-family: "Merriweather Sans";
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal; 
   display: flex;
-  gap: 20px; 
-  padding: 20px; 
+  align-items: center;
 }
 
-.product-card { 
-  border: 1px solid #ddd;
-  padding: 15px; 
-  border-radius: 8px; 
-  text-align: center;
-  margin-inline: inherit;
-
+.Gallery {
+color: #ffff;  
+align-items: center;
+justify-content: center;
+text-align: center;
+text-align: center;
+font-family: Jomolhari;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 0px;
+background: #3395C6;
+display: flex;
+  align-items: center;
+}
+.GalleryBox {
+height: 571px;
+ background: #7EC9CE;
 }
 
-button { 
-  background-color: orange;
-  color: white; border: none;
-  padding: 10px; cursor: pointer;
-}
-
-button:hover {
-  background-color: red;
+body {
+ background: white;
 }
